@@ -19,17 +19,11 @@ This project presents an experimental analysis of two coupled pendulums using mo
 
 ## Project Structure
 
-experimental-study-coupled-pendulums/
-│
-├── data/
-│   ├── raw/               # Original experimental sensor data
-│   └── FFT processed/     # Analyzed data with FFT
-│
-├── src/                   # Python scripts for signal processing and FFT analysis
-│
-├── powerbi/               # Power BI dashboard and visualizations
-│
-├── figures/               # Generated plots and images
-│
-└── README.md              # Project overview
-  
+| Folder/File | Description |
+|---|---|
+| `data/raw/` | Original experimental measurements obtained from mobile sensors |
+| `data/FFT processed/` | Analyzed data with FFT |
+| `src/` | Python scripts for signal processing and FFT analysis |
+| `powerbi/` | Interactive Power BI dashboard |
+| `figures/` | Generated plots and visual outputs |
+| `README.md` | General description of the project |
